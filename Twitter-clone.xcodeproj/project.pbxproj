@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		672981422CF4B9F500CBE5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981412CF4B9F500CBE5E3 /* AppDelegate.swift */; };
 		672981442CF4B9F500CBE5E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981432CF4B9F500CBE5E3 /* SceneDelegate.swift */; };
-		672981462CF4B9F500CBE5E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981452CF4B9F500CBE5E3 /* ViewController.swift */; };
 		6729814B2CF4B9F800CBE5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6729814A2CF4B9F800CBE5E3 /* Assets.xcassets */; };
 		6729814E2CF4B9F800CBE5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6729814C2CF4B9F800CBE5E3 /* LaunchScreen.storyboard */; };
+		6729815E2CF5629B00CBE5E3 /* MainTabComtroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6729815D2CF5629B00CBE5E3 /* MainTabComtroller.swift */; };
+		672981602CF56BA400CBE5E3 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6729815F2CF56BA400CBE5E3 /* FeedController.swift */; };
+		672981622CF56C1000CBE5E3 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981612CF56C1000CBE5E3 /* ExploreController.swift */; };
+		672981642CF56C3C00CBE5E3 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981632CF56C3C00CBE5E3 /* NotificationsController.swift */; };
+		672981662CF56C7C00CBE5E3 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981652CF56C7C00CBE5E3 /* ConversationsController.swift */; };
+		672981682CF58BD300CBE5E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672981672CF58BD300CBE5E3 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6729813E2CF4B9F500CBE5E3 /* Twitter-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		672981412CF4B9F500CBE5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		672981432CF4B9F500CBE5E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		672981452CF4B9F500CBE5E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6729814A2CF4B9F800CBE5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6729814D2CF4B9F800CBE5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6729814F2CF4B9F800CBE5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6729815D2CF5629B00CBE5E3 /* MainTabComtroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabComtroller.swift; sourceTree = "<group>"; };
+		6729815F2CF56BA400CBE5E3 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		672981612CF56C1000CBE5E3 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		672981632CF56C3C00CBE5E3 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		672981652CF56C7C00CBE5E3 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		672981672CF58BD300CBE5E3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,6 @@
 				6729815C2CF55A5F00CBE5E3 /* Utils */,
 				672981412CF4B9F500CBE5E3 /* AppDelegate.swift */,
 				672981432CF4B9F500CBE5E3 /* SceneDelegate.swift */,
-				672981452CF4B9F500CBE5E3 /* ViewController.swift */,
 				6729814A2CF4B9F800CBE5E3 /* Assets.xcassets */,
 				6729814C2CF4B9F800CBE5E3 /* LaunchScreen.storyboard */,
 				6729814F2CF4B9F800CBE5E3 /* Info.plist */,
@@ -73,6 +82,11 @@
 		672981552CF559F900CBE5E3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6729815D2CF5629B00CBE5E3 /* MainTabComtroller.swift */,
+				6729815F2CF56BA400CBE5E3 /* FeedController.swift */,
+				672981612CF56C1000CBE5E3 /* ExploreController.swift */,
+				672981632CF56C3C00CBE5E3 /* NotificationsController.swift */,
+				672981652CF56C7C00CBE5E3 /* ConversationsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +122,7 @@
 		6729815C2CF55A5F00CBE5E3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				672981672CF58BD300CBE5E3 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -182,9 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672981462CF4B9F500CBE5E3 /* ViewController.swift in Sources */,
+				672981642CF56C3C00CBE5E3 /* NotificationsController.swift in Sources */,
+				672981662CF56C7C00CBE5E3 /* ConversationsController.swift in Sources */,
 				672981422CF4B9F500CBE5E3 /* AppDelegate.swift in Sources */,
+				672981682CF58BD300CBE5E3 /* Extensions.swift in Sources */,
+				672981622CF56C1000CBE5E3 /* ExploreController.swift in Sources */,
 				672981442CF4B9F500CBE5E3 /* SceneDelegate.swift in Sources */,
+				6729815E2CF5629B00CBE5E3 /* MainTabComtroller.swift in Sources */,
+				672981602CF56BA400CBE5E3 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +352,6 @@
 				INFOPLIST_FILE = "Twitter-clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,7 +378,6 @@
 				INFOPLIST_FILE = "Twitter-clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
