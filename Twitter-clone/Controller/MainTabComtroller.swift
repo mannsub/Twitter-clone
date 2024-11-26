@@ -15,7 +15,7 @@ class MainTabComtroller: UITabBarController {
         guard let buttonImage = UIImage(named: "new_tweet") else { fatalError("Not found image.") }
 
         button.tintColor = .white
-        button.backgroundColor = UIColor(named: "TwitterBlue")
+        button.backgroundColor = .twitterBlue
         button.setImage(buttonImage, for: .normal)
         button.addAction(.init { _ in
             print("new tweet")
